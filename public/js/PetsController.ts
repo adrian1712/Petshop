@@ -62,19 +62,20 @@ namespace App {
             .error ((response) => {
             })
         }
-        // public deletePet (id) {
-        //     console.log('deleted: ' + id)
-        //     this.httpService ({
-        //         url: '/pets/' + id,
-        //         method: 'DELETE'
-        //     })
-        //     .success ((response) => {
-        //         console.log ("deleted: " + response);
-        //         this.stateService.reload ()
-        //     })
-        //     .error ((response) => {
-        //         console.log()
-        //     })
-        // }
+        public deletePet (id) {
+            console.log('deleted: ' + id)
+            this.httpService ({
+                url: '/pets/' + id,
+                method: 'DELETE'
+            })
+            .success ((response) => {
+                console.log("deleted!!!!")
+                console.log ("deleted: " + response);
+                this.stateService.reload ()
+            })
+            .error ((response) => {
+                console.log()
+            })
+        }
     }
 }

@@ -1,20 +1,6 @@
 {
   "pets": [
     {
-      "name": "alwinue",
-      "categoty": "aldkfnla",
-      "breed": "dog",
-      "price": 1000,
-      "id": 1
-    },
-    {
-      "name": "ueky",
-      "categoty": "cat",
-      "breed": "dogcat",
-      "price": 80,
-      "id": 2
-    },
-    {
       "name": "chipi",
       "categoty": "cat",
       "breed": "lion",
