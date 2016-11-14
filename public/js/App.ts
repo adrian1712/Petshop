@@ -17,18 +17,20 @@ namespace App {
                 })
                 .state ('contact',{
                     url: "/contact",
-                    template: "About Page",
+                    template: "Contact",
                     controller: App.AboutController,
                 })
                 .state ('pets',{
                     url: "/pets",
-                    template: "Pets",
+                    templateUrl: "templates/pets.html",
                     controller: App.PetsController,
+                    controllerAs: 'petsController'
                 })
                 .state ('petshop',{
                     url: "/petshop",
-                    template: "Pet Shop",
+                    templateUrl: "templates/petshop.html",
                     controller: App.PetshopController,
+                    controllerAs: 'PetshopController'
                 })
         }
     ])
