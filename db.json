@@ -1,18 +1,62 @@
 {
   "pets": [
     {
-      "name": "chipi",
-      "categoty": "cat",
-      "breed": "lion",
-      "price": 4700,
-      "id": 3
-    },
-    {
       "name": "scruffy",
       "category": "dog",
       "breed": "bassethound",
       "price": 800,
+      "id": 1,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bvdb-bassethound1.jpg"
+    },
+    {
+      "name": "red",
+      "category": "white",
+      "breed": "blue",
+      "price": "yellow",
+      "id": 2,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bvdb-bassethound2.jpg"
+    },
+    {
+      "name": "TJ",
+      "category": "dog",
+      "breed": "mix",
+      "price": 850,
+      "id": 3,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Cara_de_quem_caiu_do_caminh%C3%A3o..._%28cropped%29.jpg"
+    },
+    {
+      "name": "tyrone",
+      "category": "Scorpion",
+      "breed": "asian",
+      "price": 40,
+      "img": "http://www.petbugs.com/caresheets/gallery/Heterometrus-species.jpg",
       "id": 4
+    }
+  ],
+  "shops": [
+    {
+      "shopname": "scruffy",
+      "address": "dog",
+      "city": "bassethound",
+      "state": "NY",
+      "postalcode": "85335",
+      "id": 1
+    },
+    {
+      "shopname": "scruffy",
+      "address": "long",
+      "city": "hound",
+      "state": "Az",
+      "postalcode": "85335",
+      "id": 2
+    },
+    {
+      "shopname": "scruffy",
+      "address": "dog",
+      "city": "bassethound",
+      "state": "AZ",
+      "postalcode": "85335",
+      "id": 3
     }
   ]
 }

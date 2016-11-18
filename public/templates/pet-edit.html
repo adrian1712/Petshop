@@ -1,0 +1,25 @@
+<h2>Pet information Edit</h2>
+
+<form ng-submit="petEditController.editPet()">
+    <label>Name</label>
+    <input ng-model="petEditController.pets.name">
+    <br>
+
+    <label>Category</label>
+    <input ng-model="petEditController.pets.category">
+    <br>
+
+    <label>Breed</label>
+    <input ng-model="petEditController.pets.breed">
+    <br>
+
+    <label>Price</label>
+    <input ng-model="petEditController.pets.price">
+    <br>
+
+    <label>image</label>
+    <input ng-model="petEditController.pets.img">
+    <br>
+    <button type="submit"> save</button>
+</form>
+<!-- <button ng-click="PetEditController.editPet()">Save Post</button> -->

@@ -13,6 +13,7 @@ namespace App {
         public category;
         public breed;
         public price;
+        public img;
 
         constructor (
 
@@ -52,7 +53,8 @@ namespace App {
                     name: this.name,
                     category:this.category,
                     breed: this.breed,
-                    price: this.price
+                    price: this.price,
+                    img: this.img,
                 }
             })
             .success ((response) => {
@@ -76,6 +78,12 @@ namespace App {
             .error ((response) => {
                 console.log()
             })
+        }
+        public editPet (petId) {
+            console.log ('pet id: ' + petId);
+            this.stateService.go ('pet-edit' ,{
+                id: petId
+            });
         }
     }
 }

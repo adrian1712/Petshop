@@ -3,13 +3,15 @@
     <li ng-repeat="pet in petsController.petsList"] >
         <div class="pets">
             <strong>Name: </strong>{{ pet.name }}
-            <strong>Category: </strong>{{ pet.categorty }}
+            <strong>Category: </strong>{{ pet.category }}
             <strong>Breed: </strong>{{ pet.breed }}
             <strong>Adoption Price: </strong>{{ pet.price }}
+            <strong>Image <img src="{{ pet.img }}"/></strong>
             <!-- <strong>Image: </strong>{{ pet.img }} -->
 
             <button ng-click= 'petsController.deletePet (pet.id)'>Delete Pet</button>
             <button ng-click= 'petsController.editPet (pet.id)'>Edit</button>
+            <br>
         </div>
     </li>
 </ul>
@@ -22,7 +24,7 @@
     <input name="breed" ng-model="petsController.breed"> <br>
     <strong>Price: </strong>
     <input name="price" ng-model="petsController.price"> <br>
-    <!-- <strong>image: </strong>
-    <input name="image" ng-model="petsController.image"> <br> -->
+    <strong>image: </strong>
+    <input name="img" ng-model="petsController.img"> <br>
     <button type="submit">Save Post</button>
 </form>

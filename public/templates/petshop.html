@@ -1,28 +1,28 @@
-<!-- <h2>Pets Avaiable</h2>
+<h2>Pets Avaiable</h2>
 <ul>
-    <li ng-repeat="post in petsController.postList"] >
-        <div class="post">
-            <strong>Name: </strong>{{ post.name }}
-            <strong>Category: </strong>{{ post.categoty }}
-            <strong>Breed: </strong>{{ post.breed }}
-            <strong>Adoption Price: </strong>{{ post.price }}
-            <strong>Image: </strong>{{ post.img }}
+    <li ng-repeat="shop in petshopController.petShops"] >
+        <div class="shop">
+            <strong>Store Name: </strong>{{shop.shopname}}
+            <strong>Address: </strong>{{shop.address}}
+            <strong>City: </strong>{{shop.city}}
+            <strong>State: </strong>{{shop.state}}
+            <strong>Postal Code: </strong>{{shop.postalcode}}
 
-            <button ng-click= 'petsController.deletePost (post.id)'>Delete Pet</button>
-            <button ng-click= 'petsController.editPost (post.id)'>Edit</button>
+            <button ng-click= 'petshopController.deleteShop (shop.id)'>Delete</button>
+            <button ng-click= 'petshopController.editShop (shop.id)'>Edit</button>
         </div>
     </li>
 </ul>
-<form ng-submit="petsController.save ()">
-    <strong>Name: </strong>
-    <input name="name" ng-model="postController.name"> <br>
-    <strong>Category: </strong>
-    <input name="category" ng-model="postController.category"> <br>
-    <strong>Breed: </strong>
-    <input name="breed" ng-model="postController.breed"> <br>
-    <strong>Price: </strong>
-    <input name="price" ng-model="postController.price"> <br>
-    <strong>image: </strong>
-    <input name="image" ng-model="postController.image"> <br>
+<form ng-submit="petshopController.saveShop ()">
+    <strong>Store Name: </strong>
+    <input name="name" ng-model="petshopController.shopname"> <br>
+    <strong>Address: </strong>
+    <input name="category" ng-model="petshopController.address"> <br>
+    <strong>City: </strong>
+    <input name="breed" ng-model="petshopController.city"> <br>
+    <strong>State: </strong>
+    <input name="price" ng-model="petshopController.state"> <br>
+    <strong>Postal Code: </strong>
+    <input name="postalcode" ng-model="petshopController.postalcode"> <br>
     <button type="submit">Save Post</button>
-</form> -->
+</form>
