@@ -57,6 +57,14 @@
       "state": "AZ",
       "postalcode": "85335",
       "id": 3
+    },
+    {
+      "shopname": "Adrian Amaya",
+      "address": "11774 W Windrose Ave",
+      "city": "El Mirage",
+      "state": "Arizona",
+      "postalcode": 85335,
+      "id": 4
     }
   ]
 }

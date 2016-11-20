@@ -6,7 +6,7 @@ namespace App {
         private stateService;
 
         public petsList;
-        public currentPets;
+        // public currentPets;
         public newPets;
 
         public name;

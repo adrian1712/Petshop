@@ -1,0 +1,24 @@
+<h2>Pet Shop Edit</h2>
+
+<form ng-submit="petshopEditController.editShop()">
+    <label>Shop Name</label>
+    <input ng-model="petshopEditController.shops.shopname">
+    <br>
+
+    <label>Address</label>
+    <input ng-model="petshopEditController.shops.address">
+    <br>
+
+    <label>City</label>
+    <input ng-model="petshopEditController.shops.city">
+    <br>
+
+    <label>State</label>
+    <input ng-model="petshopEditController.shops.state">
+    <br>
+
+    <label>zip code</label>
+    <input ng-model="petshopEditController.shops.postalcode">
+    <br>
+    <button type="submit"> save</button>
+</form>
